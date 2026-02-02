@@ -1,0 +1,10 @@
+#include<stdio.h>
+
+int main(){
+    int arr[5] = {1,2,3,4,5};
+    
+    printf("Reverse Array is : ");
+    for(int i=4; i>=0; i--){
+        printf(" %d ",arr[i]);
+    }
+}
